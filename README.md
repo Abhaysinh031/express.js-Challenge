@@ -46,4 +46,24 @@ npm install
 npm start
 
 ```
+#### React app will run on: http://localhost:3000
 
+## API Endpoints (Backend)
+
+#### Auth Routes
+
+| Method | Endpoint              | Description       |
+| ------ | --------------------- | ----------------- |
+| POST   | `/api/users/register` | Register new user |
+| POST   | `/api/users/login`    | Login and get JWT |
+
+
+
+### 🛠 Tech Stack
+- Frontend: React, React Router
+
+- Backend: Express.js, Node.js
+
+- Database: MongoDB with Mongoose
+
+- Auth: JWT (JSON Web Tokens)
