@@ -58,6 +58,17 @@ npm start
 | POST   | `/api/users/login`    | Login and get JWT |
 
 
+#### Notes Routes (Protected)
+
+| Method | Endpoint         | Description        |
+| ------ | ---------------- | ------------------ |
+| GET    | `/api/notes`     | Get all user notes |
+| POST   | `/api/notes`     | Create a new note  |
+| PUT    | `/api/notes/:id` | Update a note      |
+| DELETE | `/api/notes/:id` | Delete a note      |
+
+
+
 
 ### 🛠 Tech Stack
 - Frontend: React, React Router
@@ -67,3 +78,6 @@ npm start
 - Database: MongoDB with Mongoose
 
 - Auth: JWT (JSON Web Tokens)
+
+
+
